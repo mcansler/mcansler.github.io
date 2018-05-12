@@ -1,0 +1,209 @@
+header {
+    margin:0 auto;
+    height: 100px;
+	background-color: white;
+	border-bottom: 2px solid #C7C7C7 ;
+}
+
+body {
+                
+ margin: 0;
+ padding: 0;
+ font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+ background-image: url(../images/dust_scratches.png);
+                
+}
+
+h1 {
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px 0;
+	background-color: #4aaaa5;
+	width: 300px;
+	height: 40px;
+	position: relative;
+	left: -330px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#main_bio {
+	width: 960px;
+}
+
+.clear {
+   clear:both;
+}
+
+.container {
+	width: 960px;
+	height: 550px;
+	margin: 50px auto 50px;
+	background-color: white;
+	border: 1px solid #C7C7C7;
+	margin-bottom: 150px;
+}
+
+.contact {
+	width: 960px;
+	height: 650px;
+	margin: 50px auto 50px;
+	background-color: white;
+	border: 1px solid #C7C7C7;
+	margin-bottom: 150px;
+}
+
+h2 {
+	font-size: 35px;
+	font-weight: bold;
+	color: #4aaaa5;
+	margin: 0px auto;
+	padding: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+hr {
+	margin-top: 0;
+	width: 94%;
+}
+
+nav {
+	
+	margin: 0 auto;
+	margin-top: -60px;
+	width: 300px;
+	position: relative;
+	left: 380px;	
+}
+ul li {
+  display: inline-block;
+  padding: 0 10px;	
+}
+
+ul li ~ li {
+  border-left: 1px solid #777777;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+	color: #777777;
+	font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+	color: #4aaaa5;
+}
+a {
+	margin-left: 5px;
+}
+
+footer{
+	background-color: #666666;
+	height: 50px;
+	position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	border-top: 8px solid #4aaaa5;
+}
+
+h4{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	margin-top: 15px;
+}
+#headshot {
+	width: 25%;
+	float: left;
+	margin-left: 8px;
+	padding: 20px;
+	margin-top: -10px
+}
+
+.bio {
+	padding: 0px 30px;
+	line-height: 2;
+	color: #777777;
+	font-size: 18px;
+}
+
+form{
+	margin: 30px;
+}
+
+#name, #email {
+	width: 900px;
+	height: 25px
+}
+
+::placeholder {
+	padding: 10px;
+}
+
+textarea {
+	width: 900px;
+	height: 200px;
+}
+
+#submit {
+	margin-top: 20px;
+	background-color: #4aaaa5;
+	width: 150px;
+	height: 50px;
+	border: none;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+p{
+	font-size: 18px;
+	color: #777777;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.portfolio {
+	width: 960px;
+	height: 920px;
+	margin: 50px auto 50px;
+	background-color: white;
+	border: 1px solid #C7C7C7;
+	margin-bottom: 150px;
+}
+
+.polaroid {
+  	
+  position: relative;
+  margin: 30px;	
+  float: left;	
+}
+
+.label {
+ 
+  background-color: #4aaaa5;	
+  text-align: center;
+  height: 60px;
+  width: 250px;	
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 40%);	
+  
+}
+	
+.thumbnail{
+
+  width: 250px;
+  height: 200px;	
+	
+}
+
+.image_label {
+	font-size: 18px;
+	color: white;
+}
